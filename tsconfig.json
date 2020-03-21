@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "messages-angular": [
+        "dist/messages-angular"
+      ],
+      "messages-angular/*": [
+        "dist/messages-angular/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
