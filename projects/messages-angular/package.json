@@ -1,8 +1,18 @@
 {
-  "name": "messages-angular",
+  "name": "@mailchain/messages-angular",
   "version": "0.0.1",
+  "description": "Mailchain Messages Angular - a service for calling the Mailchain API in Angular",
+  "author": "Mailchain",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mailchain/messages-angular.git"
+  },
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
+  },
+  "dependencies": {
+    "@mailchain/http-helpers-angular": "^0.0.4"
   }
 }
