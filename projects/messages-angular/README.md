@@ -106,8 +106,11 @@ export class OutboundMail {
 ###### sendMail(outboundMail: OutboundMail, protocol: string, network: string)
 
 Sends a message via the Mailchain api
+
 @param `outboundMail` an outbound mail object (see initOutboundMail)
+
 @param `protocol` is the protocol to use (e.g. "ethereum")
+
 @param `network` is the network to send to (e.g. "ropsten", "mainnet" etc.)
 
 ---
